@@ -12,6 +12,12 @@ module.exports =
   start: ->
     portfinder.getPort (err, port) =>
       @run port
+
+  stop: () ->
+    @server.forEach (project) ->
+      project.server?.close()
+
+    @server = []
   
   deactivate: ->
     @server.forEach (project) ->
