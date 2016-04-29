@@ -1,5 +1,5 @@
 {
-  "name": "local-server-express",
+  "name": "local-server-express2",
   "main": "./lib/local-server-express",
   "version": "0.3.1",
   "description": "Serve current project via Express.\n`ctrl+alt+cmd+s` then serve current project and open browser.",
@@ -18,7 +18,7 @@
     "serve-index": "git://github.com/nakajmg/serve-index"
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/nakajmg/local-server-express",
+  "homepage": "https://github.com/zone-ghost/local-server-express",
   "bugs": {
     "url": "https://github.com/nakajmg/local-server-express/issues"
   }
